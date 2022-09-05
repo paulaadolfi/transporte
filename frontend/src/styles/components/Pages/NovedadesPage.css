@@ -1,0 +1,15 @@
+.novedades {
+    text-align: center;
+}
+.novedades p {
+    color: #666;
+    text-align: justify;
+    font-size: 12px;
+}
+
+.img_novedades img {
+   max-width: 65%;
+   margin: 1em auto;
+   border: 1px solid #ccc;
+
+}
