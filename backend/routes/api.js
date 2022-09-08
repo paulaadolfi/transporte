@@ -32,7 +32,7 @@ router.get('/novedades', async function(req, res, next) {
 
 router.post('/contacto', async (req, res) => {
   const mail = {
-    to: 'Bs16034.554@gmail.com',
+    to: 'paula.adolfi@gmail.com',
     subject: 'contacto web',
     html: `${req.body.nombre} se ha contactado a traves del sitio web de transportes web y solicita  mas información al mail ${req.body.email} . <br> Además, envió el siguiente mensaje: ${req.body.mensaje}. <br> Su teléfono es: ${req.body.telefono} `
   };
